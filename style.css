@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 60%;
+  width: 50%;
   height: 100vh;
 }
 
@@ -30,7 +30,8 @@ body {
   width: 50%;
 }
 .instagram-phone img {
-  height: 50rem;
+  height: 40rem;
+ margin-top: -40px;
 }
 .instagram-continue {
   display: flex;
@@ -62,6 +63,8 @@ body {
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
+  margin-right: 1rem;
+margin-top: 1.5rem;
 }
 .profile-photo img {
   height: 6rem;
@@ -75,7 +78,6 @@ body {
 }
 .instagram-logout {
   color: #0095f6;
-  margin-top: 1rem;
 }
 .not-account {
   color: rgb(160, 160, 160);
@@ -89,8 +91,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 1.3rem 0;
+  padding: 1rem 0;
 }
+
 .download {
   display: flex;
   width: 100%;
